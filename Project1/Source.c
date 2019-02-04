@@ -3,7 +3,7 @@
 
 int main(void) {
 	double wavelength;
-	double t[] = { 14.16 , 16.14 , 23.55 , 27.94 };
+	double t[] = { 14.16 , 16.41 , 23.55 , 27.94 };
 	int counter = 0;
 
 	wavelength = 0.1542;
