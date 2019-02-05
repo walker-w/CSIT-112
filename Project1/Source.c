@@ -23,7 +23,7 @@ int main(void) {
 		d_ratio = (d[0] * d[0]) / (d[counter] * d[counter]);
 		doubled = d_ratio * 2;
 		tripled = d_ratio * 3;
-		printf("%-30.2f%-30.2f%-30.2f%-30.2f%-30.2f\n", t[counter], d[counter], d_ratio, doubled, tripled);
+		printf("%-30.4f%-30.4f%-30.4f%-30.4f%-30.4f\n", t[counter], d[counter], d_ratio, doubled, tripled);
 		counter = counter + 1;
 	}
 	
